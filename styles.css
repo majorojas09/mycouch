@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+*/
+body {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.titulo_nav {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 4rem;
+    background: #222;
+    z-index: 100000;
+}
+
+.back {
+    background-image: url(../mycouch/img/DGO-entrenamiento-online-en-directo.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.back .overlay {
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+#item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#item li {
+    list-style: none;
+    padding-right: 50px;
+}
+
+#item li a {
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#item li a:hover {
+    color: #ff5733;
+    cursor: pointer;
+}
+
+.mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.mid p {
+    color: #7f8c8d;
+    font-size: 1.3rem;
+}
+
+.title_mid {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.acerca {
+    background: #f9f9f9;
+    padding: 8rem;
+}
+
+.acerca .about h2{
+    color: #212529;
+    font-size: 2.1rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 1.1rem;
+}
+
+.acerca .about p{
+    color: #212529;
+    font-size: 1.3rem;
+}
+
+.descripcion {
+    background: #e9e8e8;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.descripcion .desc {
+    width: 39%;
+}
+
+.descripcion .desc p{
+    color: #212529;
+    font-size: 1.3rem;
+}
+
+.descripcion .img {
+    width: 57%;
+}
+
+.img img{
+    width: 450px;
+    height: 300px;
+}
+
+.precios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 8rem;
+}
+
+.precios .p_precio {
+    font-size: 1.3rem;
+    color: #95a5a6;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.precios .title_precio {
+    font-size: 2.2rem;
+    color: #222;
+    font-weight: 700;
+    padding-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.opc1 {
+    background: #e9e8e8;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opc1 .detalles {
+    width: 39%;
+}
+
+.opc1 .img {
+    width: 57%;
+}
+
+.opc2 {
+    background: #e9e8e8;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opc2 .detalles {
+    width: 39%;
+}
+
+.opc2 .img {
+    width: 57%;
+}
+
+.opc3 {
+    background: #e9e8e8;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opc3 .detalles {
+    width: 39%;
+}
+
+.opc3 .img {
+    width: 57%;
+}
+
+.informacion {
+    background: #e9e8e8;
+    padding: 8rem;
+}
+
+.informacion .masInfo h2{
+    color: #212529;
+    font-size: 2.1rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 1.1rem;
+}
+
+.informacion .masInfo p{
+    color: #212529;
+    font-size: 1.3rem;
+}
