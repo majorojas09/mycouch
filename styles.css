@@ -32,7 +32,7 @@ body {
 }
 
 .back {
-    background-image: url(../mycouch/img/DGO-entrenamiento-online-en-directo.jpg);
+    background-image: url(img/DGO-entrenamiento-online-en-directo.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -224,4 +224,16 @@ body {
 .informacion .masInfo p{
     color: #212529;
     font-size: 1.3rem;
+}
+
+.evidencia {
+    background: #fff;
+    padding: 8rem;
+}
+
+.evidencia h2 {
+    color: #212529;
+    font-size: 2.1rem;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 1.1rem;
 }
